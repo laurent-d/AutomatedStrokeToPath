@@ -1,3 +1,6 @@
+This is an updated version of AutomatedStrokeToPath from 1upkd/AutomatedStrokeToPath [1upkd/AutomatedStrokeToPath](https://github.com/1upkd/AutomatedStrokeToPath) to be compatible with Inkscape 0.92 ++ 
+See the changelog  https://wiki.inkscape.org/wiki/Using_the_Command_Line
+
 # Convert all strokes in Inkscape SVGs to Paths
 
 Many iconfont generators (IcoMoon, for example) require the SVG to have only paths and not strokes.
@@ -14,7 +17,7 @@ You can check for this as follows
 
 ```
 $ inkscape -V
-Inkscape 0.91 r13725`
+Inkscape 1.1.1 (c3084ef, 2021-09-22)
 ```
 
 ## Usage
@@ -25,6 +28,6 @@ Inkscape 0.91 r13725`
 $ ./stroketopath.sh <foldername>
 ```
 ## My font development workflow
-Check out my font developemnt workflow: [icanfont](https://github.com/thekarthik/icanfont)
+Check out font developemnt workflow of @thekarthik : [icanfont](https://github.com/thekarthik/icanfont)
 
 **P.S.:** Inkscape GUI opens and closes for every SVG file being processed. Yes, it is annoying but I don't know how to prevent that.
